@@ -1,5 +1,7 @@
 $(document).ready(function() {
+	console.log("hi");
 	$('img').click(function(){
-		$('img').effect('bounce',{times:3},1000)
+		console.log("hi");
+		$('img').toggle('bounce',{times:3},'slow');
 	});
 });
